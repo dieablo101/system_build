@@ -41,7 +41,6 @@ ignoreGit() {
 		echo "!system.sh" >> .gitignore
 		echo "!ssh_start.sh" >> .gitignore
 		echo "!temp_build.sh" >> .gitignore
-		echo "!remote_build_test.sh" >> .gitignore
 		echo "!reset_remote_git.sh" >> .gitignore
 }
 
