@@ -52,6 +52,7 @@ remoteGit() {
 		
 		# used to reset from remote during install ( EXPERIMENTAL )		# 
 		sh reset_remote_git.sh
+		
 }
 
 # git not installed
