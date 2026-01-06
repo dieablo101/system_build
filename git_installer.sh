@@ -51,7 +51,7 @@ remoteGit() {
 		git remote set-url origin git@github.com:dieablo101/system_build.git
 		
 		# used to reset from remote during install ( EXPERIMENTAL )		# 
-		sh reset_remote_git.sh
+		# sh reset_remote_git.sh
 		
 }
 
