@@ -43,6 +43,7 @@ ignoreGit() {
 		echo "!temp_build.sh" >> .gitignore
 		echo "!reset_remote_git.sh" >> .gitignore
 		echo "!editor_build.sh" >> .gitignore
+		echo "!update_ignore.sh" >> .gitignore
 }
 
 remoteGit() {
