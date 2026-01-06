@@ -6,3 +6,4 @@
 !temp_build.sh
 !reset_remote_git.sh
 !editor_build.sh
+!update_ignore.sh
