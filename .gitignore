@@ -4,5 +4,5 @@
 !system.sh
 !ssh_start.sh
 !temp_build.sh
-!remote_build_test.sh
 !reset_remote_git.sh
+!editor_build.sh
