@@ -71,8 +71,8 @@ read -p " ❔ Git credentials accurate [y/n] : " gitValidityValue
 		apk add git
 		configGit
 		
-		rm -r ~/../sys/.git
-		git init
+		# rm -r ~/../sys/.git
+		# git init
 		
 		ignoreGit
 		remoteGit
