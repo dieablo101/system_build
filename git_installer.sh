@@ -30,31 +30,31 @@ configGit() {
 		git config --global init.defaultBranch main
 }
 
-ignoreGit() {
-		rm ~/../sys/.gitignore
-		touch .gitignore
+# ignoreGit() {
+#		rm ~/../sys/.gitignore
+#		touch .gitignore
 		
-		echo "*" >> .gitignore
+#		echo "*" >> .gitignore
 		# whitelists files
-		echo "!.gitignore" >> .gitignore
-		echo "!git_installer.sh" >> .gitignore
-		echo "!system.sh" >> .gitignore
-		echo "!ssh_start.sh" >> .gitignore
-		echo "!temp_build.sh" >> .gitignore
-		echo "!reset_remote_git.sh" >> .gitignore
-		echo "!editor_build.sh" >> .gitignore
-		echo "!update_ignore.sh" >> .gitignore
-}
+#		echo "!.gitignore" >> .gitignore
+#		echo "!git_installer.sh" >> .gitignore
+#		echo "!system.sh" >> .gitignore
+#		echo "!ssh_start.sh" >> .gitignore
+#		echo "!temp_build.sh" >> .gitignore
+#		echo "!reset_remote_git.sh" >> .gitignore
+#		echo "!editor_build.sh" >> .gitignore
+#		echo "!update_ignore.sh" >> .gitignore
+#}
 
-remoteGit() {
-		git remote add origin git@github.com:dieablo101/system_build.git
-		git remote -v
-		git remote set-url origin git@github.com:dieablo101/system_build.git
+#remoteGit() {
+#		git remote add origin git@github.com:dieablo101/system_build.git
+#		git remote -v
+#		git remote set-url origin git@github.com:dieablo101/system_build.git
 		
 		# used to reset from remote during install ( EXPERIMENTAL )		# 
 		# sh reset_remote_git.sh
 		
-}
+#}
 
 # git not installed
 while ! $checkGitStatus; do
@@ -75,8 +75,8 @@ read -p " ❔ Git credentials accurate [y/n] : " gitValidityValue
 		# rm -r ~/../sys/.git
 		# git init
 		
-		ignoreGit
-		remoteGit
+		# ignoreGit
+		# remoteGit
 
 		checkGitStatus="true"
 	fi
