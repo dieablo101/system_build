@@ -1,4 +1,5 @@
 #!/bin/sh 
+# test
 
 if ! command -v emacs > ~/../dev/null 2>&1; then
     apk add emacs
