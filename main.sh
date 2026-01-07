@@ -12,4 +12,4 @@ else
     echo "Ranger already installed"
 fi
 
-sh git_installer.sh
+sh ~/../sys/git_installer.sh
