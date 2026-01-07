@@ -3,7 +3,4 @@
 !git_installer.sh
 !system.sh
 !ssh_start.sh
-!temp_build.sh
-!reset_remote_git.sh
-!editor_build.sh
-!update_ignore.sh
+!main.sh

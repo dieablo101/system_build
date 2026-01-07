@@ -1,4 +1,0 @@
-#!/bin/sh
-
-# TESTING RANGER REDRAW
-
