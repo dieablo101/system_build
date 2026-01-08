@@ -1,13 +1,12 @@
 #!/bin/bash
-linebreak="echo "
-#test
+#linebreak="echo "
 
 yes="[Y|y]"
 no="[N|n]"
 
 ### GIT INSTALL + CHECK
 # Git Variables
-	# if true, get is installed
+# if true, get is installed
 checkGitStatus="false"
 gitUsername=""
 gitEmail=""
@@ -63,12 +62,12 @@ while ! $checkGitStatus; do
 read -p "  👤 Git Username: " gitUsername
 read -p "  📧 Git Email: " gitEmail
 
-$linebreak
+#$linebreak
 read -p " ❔ Git credentials accurate [y/n] : " gitValidityValue
 
 	if [[ $gitValidityValue == $yes ]]; then
 		
-		$linebreak	
+#		$linebreak	
 		echo "◦ Installing Git"
 		apk add git
 		configGit
