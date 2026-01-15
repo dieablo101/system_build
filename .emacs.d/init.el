@@ -1,0 +1,6 @@
+(global-display-line-numbers-mode 1)
+(setq backup-directory-alist `(("." . "~/.emacs.d/backups/")))
+(setq auto-save-file-name-transforms `((".*" "~/.emacs.d/backups/" t)))
+(require 'server)
+(unless (server-running-p)
+    (server-start))

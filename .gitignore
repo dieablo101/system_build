@@ -1,6 +1,8 @@
 *
-!.gitignore
-!git_installer.sh
-!system.sh
-!ssh_start.sh
-!main.sh
+
+!.profile
+
+!src/
+!src/*
+!.emacs.d/
+!.emacs.d/init.el
