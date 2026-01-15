@@ -1,3 +1,3 @@
 #!/bin/sh 
 
-sh ~/../sys/git_installer.sh
+sh ~/src/git_installer.sh
